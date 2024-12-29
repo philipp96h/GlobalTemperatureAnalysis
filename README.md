@@ -9,7 +9,7 @@ Dieses Projekt analysiert globale Temperaturtrends über vier Jahrhunderte. Die 
 - **`assets/screenshots/`**: Visualisierungen aus Power BI.
 
 ## Analyse-Schritte
-1. **Datenquelle**: Kaggle-Datensatz zu globalen Temperaturen ([Link](https://www.kaggle.com)).
+1. **Datenquelle**: Kaggle-Datensatz zu globalen Temperaturen ([[Link](https://www.kaggle.com)](https://www.kaggle.com/datasets/maso0dahmed/global-temperature-records-1850-2022)).
 2. **Datenverarbeitung**:
    - Upload in Azure Blob Storage.
    - Verknüpfung mit einer Azure SQL-Datenbank.
@@ -17,11 +17,9 @@ Dieses Projekt analysiert globale Temperaturtrends über vier Jahrhunderte. Die 
    - Mit Power BI wurden Temperaturtrends und Abweichungen analysiert.
 
 ## Ergebnisse
-### Durchschnittstemperatur über die Jahrhunderte
-![Average Temperature Over Time](assets/screenshots/graph1.png)
 
 ### Regionale Temperaturabweichungen
-![Regional Temperature Anomalies](assets/screenshots/graph2.png)
+![Regional Temperature Anomalies](assets/screenshots/Screenshot_Dashboard.png)
 
 ## Reproduzieren
 1. Lade den Kaggle-Datensatz herunter.
